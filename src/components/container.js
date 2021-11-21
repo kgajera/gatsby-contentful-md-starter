@@ -1,9 +1,12 @@
 import * as React from 'react';
 
-const Container = ({ as = 'div', children, ...props }) => {
+const Container = ({ as = 'div', children, className = '', ...props }) => {
   const Tag = as;
   return (
-    <Tag className={`mx-auto max-w-screen-lg pb-8 px-4 lg:px-0`} {...props}>
+    <Tag
+      className={`mx-auto max-w-screen-lg px-4 lg:px-0 w-full ${className}`}
+      {...props}
+    >
       {children}
     </Tag>
   );
