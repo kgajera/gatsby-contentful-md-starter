@@ -33,7 +33,7 @@ const Navigation = () => {
   return (
     <Container
       as="nav"
-      className="flex flex-col md:flex-row md:items-center max-w-screen-lg mx-auto px-4 lg:px-0 py-5 mb-5 border-b"
+      className="flex flex-col md:flex-row md:items-center py-5 mb-5 border-b"
       role="navigation"
       aria-label="Main"
     >
