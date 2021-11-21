@@ -696,7 +696,7 @@
         "id": "2i3FcrQg1TQGAajvavYxyo",
         "type": "Entry",
         "createdAt": "2021-11-21T01:22:02.147Z",
-        "updatedAt": "2021-11-21T03:53:12.816Z",
+        "updatedAt": "2021-11-21T13:39:57.492Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -704,8 +704,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 66,
-        "publishedAt": "2021-11-21T03:53:12.816Z",
+        "publishedVersion": 79,
+        "publishedAt": "2021-11-21T13:39:57.492Z",
         "firstPublishedAt": "2021-11-21T01:22:04.013Z",
         "createdBy": {
           "sys": {
@@ -721,8 +721,8 @@
             "id": "7cM1ecg1jVYKYrNC50gdHD"
           }
         },
-        "publishedCounter": 13,
-        "version": 67,
+        "publishedCounter": 19,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -746,7 +746,7 @@
           "en-US": "about"
         },
         "content": {
-          "en-US": "A Gatsby starter using [Contentful](https://www.contentful.com/ \"Contentful\") and [Tailwind](https://tailwindcss.com \"Tailwind\"). In particular, this starter renders markdown content from Contentful and uses [Tailwind Typography](https://github.com/tailwindlabs/tailwindcss-typography \"Tailwind Typography\") for styling.\n\n## Getting Started\n1. Use the Gatsby CLI (install instructions) to create a new site, specifying the gatsby-contentful-starter:\n    ```\n    gatsby new my-contentful-starter https://github.com/kgajera/gatsby-contentful-starter\n    ```\n2. Navigate into your new site's directory:\n    ```\n    cd my-contentful-starter\n    ```\n3. Create a new environment file, .env.development, with the following contents:\n    ```\n    CONTENTFUL_SPACE_ID=\n    CONTENTFUL_ACCESS_TOKEN=\n    CONTENTFUL_MANAGEMENT_TOKEN=\n    ```\n4. Run `npm run contentful-import` to import content types\n5. Run `npm run develop` to start the development server. Your site is now running at `http://localhost:8000`!\n\n## Deploy\n\nDeploy this starter with one click on Gatsby Cloud:\n[![Gatsby Deploy Now](//images.ctfassets.net/myxgtc5qxlin/5HqKg33dF8t2whklExV1Uo/3f0b19e32c670c32f8a5fde55867db8d/deploynow.svg)](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-md-starter \"Deploy Now!\")"
+          "en-US": "A Gatsby starter using [Contentful](https://www.contentful.com/ \"Contentful\") and [Tailwind](https://tailwindcss.com \"Tailwind\"). In particular, this starter renders markdown content from Contentful and uses [Tailwind Typography](https://github.com/tailwindlabs/tailwindcss-typography \"Tailwind Typography\") for styling.\n\n## Getting Started\n1. Use the Gatsby CLI (install instructions) to create a new site, specifying the `gatsby-contentful-md-starter`:\n    ```\n    gatsby new my-contentful-starter https://github.com/kgajera/gatsby-contentful-md-starter\n    ```\n2. Navigate into your new site's directory:\n    ```\n    cd my-contentful-starter\n    ```\n3. Create a new [environment file](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/), `.env.development`, with the following contents:\n    ```\n    CONTENTFUL_SPACE_ID=\n    CONTENTFUL_ACCESS_TOKEN=\n    CONTENTFUL_MANAGEMENT_TOKEN=\n    ```\n4. Run `npm run contentful-import` to import content models.\n5. Run `npm run develop` to start the development server. Your site is now running at `http://localhost:8000`!\n\n## Deploy\n\nDeploy this starter with one click on Gatsby Cloud:\n[![Gatsby Deploy Now](//images.ctfassets.net/myxgtc5qxlin/5HqKg33dF8t2whklExV1Uo/3f0b19e32c670c32f8a5fde55867db8d/deploynow.svg)](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-md-starter \"Deploy Now!\")"
         }
       }
     },
@@ -849,7 +849,7 @@
         "id": "3vI5PGgJopJvyQiKNVqIEO",
         "type": "Entry",
         "createdAt": "2021-11-21T01:22:02.227Z",
-        "updatedAt": "2021-11-21T02:44:55.513Z",
+        "updatedAt": "2021-11-21T13:38:59.392Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -857,8 +857,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 7,
-        "publishedAt": "2021-11-21T02:44:55.513Z",
+        "publishedVersion": 26,
+        "publishedAt": "2021-11-21T13:38:59.392Z",
         "firstPublishedAt": "2021-11-21T01:22:04.700Z",
         "createdBy": {
           "sys": {
@@ -874,8 +874,8 @@
             "id": "7cM1ecg1jVYKYrNC50gdHD"
           }
         },
-        "publishedCounter": 2,
-        "version": 8,
+        "publishedCounter": 6,
+        "version": 27,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -899,7 +899,7 @@
           "en-US": "content-models"
         },
         "content": {
-          "en-US": "The following are [content models](https://www.contentful.com/help/content-modelling-basics/ \"Contentful Content Models\") included with this starter.\n\n## Page\nThis content model represents a page on the site. The starter will [programmatically create pages](https://www.gatsbyjs.com/docs/programmatically-create-pages-from-data/) for each page.\n\n## Blog Post\nThis content model represents a blog post on the site. The starter will [programmatically create pages](https://www.gatsbyjs.com/docs/programmatically-create-pages-from-data/) for each blog post and lists posts on the Blog page.\n\n## Navigation\nThis content model represents a navigation menu on the site and will contain references to the Page and Navigation Item models. The starter uses one navigation for the header.\n\n## Navigation Item\nThis content model represents a navigation menu item. This Navigation content model can contain many Navigation Item references. Use this when you need to add a custom link to the navigation."
+          "en-US": "The following [content models](https://www.contentful.com/help/content-modelling-basics/ \"Contentful Content Models\") are used by this starter. Import these models into your Contentful space by running:\n```\nnpm run contentful-import\n```\n\n## Page\nThis content model represents a page on the site. The starter will [programmatically create pages](https://www.gatsbyjs.com/docs/programmatically-create-pages-from-data/) for each page.\n\n## Blog Post\nThis content model represents a blog post on the site. The starter will [programmatically create pages](https://www.gatsbyjs.com/docs/programmatically-create-pages-from-data/) for each blog post and lists posts on the [Blog](/blog) page.\n\n## Navigation\nThis content model represents a navigation menu on the site and will contain references to the Page and Navigation Item models. The starter uses one navigation for the header.\n\n## Navigation Item\nThis content model represents a navigation menu item. This Navigation content model can contain many Navigation Item references. Use this when you need to add a custom link to the navigation."
         }
       }
     },
